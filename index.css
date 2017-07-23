@@ -1,5 +1,6 @@
 body {
   margin-top: 0px; margin-right: 0px; margin-left: 0px;
+  padding-bottom: 100px;
 }
 
 header img {
@@ -29,10 +30,10 @@ nav img {
 h1 {
   font-size: 3vw;
   font-family: "Gotham Rounded Medium";
-  position: absolute; 
-  top: 180px; 
-  left: 0; 
-  width: 100%; 
+  position: absolute;
+  top: 180px;
+  left: 0;
+  width: 100%;
   color: white;
   text-shadow: 2px 2px black;
 }
@@ -64,8 +65,8 @@ ul#horizontal-list li {
 }
 
 footer {
-  position: absolute; 
-  left: 2px; right: 2px; bottom: 2px; 
+  position: fixed;
+  left: 2px; right: 2px; bottom: 2px;
   height: 46px;
 
   background-color: #f3e5f5;
@@ -87,4 +88,3 @@ footer {
     font-weight: lighter;
     font-style: lighter;
 }
-
