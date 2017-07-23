@@ -27,6 +27,33 @@ nav img {
   height: 75%;
 }
 
+/* Navigation Bar Styling... mostly */
+nav ul {
+    background-color: black;
+    /*height: 45px;*/
+    /*width: 800px;*/
+    padding: 0px;
+    margin: 0 0 0 0;
+    float: right;
+    /*color: white;*/
+    /*border-bottom: 1px solid grey;*/
+    list-style-type: none;
+}
+
+nav li {
+    float: left;
+    /*color: white;*/
+}
+nav ul li a {
+    display: block;
+    height: 25px;
+    /*border-right: 1px solid #cccccc;*/
+    padding: 12px 18px 8px 18px;
+    vertical-align: middle;
+    color: white;
+}
+/* CMC */
+
 h1 {
   font-size: 3vw;
   font-family: "Gotham Rounded Medium";
